@@ -1,0 +1,54 @@
+/* src/pages/HomePage.css */
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Center vertically */
+  align-items: center;
+  /* Center horizontally */
+  height: 100vh;
+}
+
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  /* Adjust spacing */
+}
+
+.button-row {
+  display: flex;
+  gap: 10px;
+  /* Adjust gap between buttons */
+}
+
+.home-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 15px;
+}
+
+.home-btn:hover {
+  background-color: white;
+}

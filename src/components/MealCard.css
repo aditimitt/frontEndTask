@@ -1,0 +1,51 @@
+/* src/components/MealCard.css */
+
+.meal-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Adjust card width as needed */
+  }
+  .meal-card-body{
+    display: flex;
+  }
+  .meal-image {
+    width: 100%;
+  }
+  
+  .meal-image img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .meal-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .meal-details h3 {
+    margin: 0;
+    font-size: 16px; /* Adjust font size as needed */
+  }
+  
+  .heart-icon {
+    font-size: 20px; /* Adjust heart icon size as needed */
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .heart-icon.favourite {
+    color: red; /* Adjust favourite heart color as needed */
+  }
+  

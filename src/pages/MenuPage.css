@@ -1,0 +1,53 @@
+/* src/pages/MenuPage.css */
+
+.menu-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+  }
+  
+  .menu-page .main-content {
+    width: 100%;
+    max-width: 800px !important;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .category-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Display three items per row */
+    gap: 20px; /* Adjust gap between items */
+  }
+  
+  .category-item {
+    padding: 10px;
+    border: 1px solid; /* Add border to each category item */
+    border-radius: 5px; /* Optional: Add border radius */
+  }
+
+  li{
+    border: 1px solid;
+  }
+
+  ul {
+    text-align: center;
+  }
+  
+  .category-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .category-link:hover {
+    color: #f44336;
+  }
+  

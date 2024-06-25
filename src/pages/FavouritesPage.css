@@ -1,0 +1,59 @@
+/* src/pages/FavouritesPage.css */
+
+.favourites-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.main-content {
+  width: 100%;
+  max-width: none !important;
+  /* Adjust max-width as needed */
+  margin-top: 0px !important;
+}
+
+.meal-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  /* Responsive grid layout */
+  gap: 20px;
+  /* Adjust gap between meal cards */
+  margin-top: 20px;
+}
+
+.meal-list p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.meal-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+.meal-list {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left:50px;
+}
+
+.meal-list p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Ensure the sidebar does not cover the MenuIcon */
+.menu-icon-container {
+  z-index: 1000;
+}

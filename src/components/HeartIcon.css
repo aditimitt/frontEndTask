@@ -1,0 +1,13 @@
+/* src/components/HeartIcon.css */
+
+.heart-icon {
+    cursor: pointer;
+    font-size: 24px;
+    color: gray;
+    margin-right: 10px;
+  }
+  
+  .heart-icon.favorited {
+    color: red;
+  }
+  
